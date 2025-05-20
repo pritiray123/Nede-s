@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.main{
+    background-color: #0f0f0f;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    height: 585px;
+    margin: auto;
+}
+
+.box{
+    width: 100%;
+    
+    
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+h1{
+    color: rgb(251, 240, 226);
+    font-size: 1000%;
+    letter-spacing: 30px;
+    margin: auto;
+}
+.content{
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 50px;
+    padding: 1px 5px;
+    
+}
+.where{
+    color: rgba(255, 255, 255, 0.733);
+    display: flex;
+    font-size: 20px;
+    
+    padding: 1px 10px;
+    letter-spacing: 5PX;
+}
+.Btn{
+    display: inline-block;
+    background-color: rgb(5, 6, 63);
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size:100%;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    margin-top: 100PX;
+    margin-bottom: 20px;
+    
+}
+.Btn:hover{
+    background-color: rgb(18, 18, 134);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+.post{
+    position: absolute;
+            background-color: rgb(255, 255, 255);
+            width: 250px;
+            height: 300px;
+            top: 235px;
+            right: 300px;
+            border-radius: 10px;
+            box-shadow: 1px 8px 15px wheat;
+            
+}
+.social-content{
+    position: absolute;
+    background-color: rgb(238, 255, 0);
+    width: 200px;
+    height: 250px;
+    top: 50px;
+    right: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 8px 15px rgba(184, 209, 18, 0.765);
+
+}
+.bottom{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 40px;
+    top: 247px;
+    right: 0px;
+    border-radius: 10px;
+}
+H2{
+    position: absolute;
+    font-size: 200%;
+    right: 10%;
+    top: 10%;
+}
+H3{
+     position: absolute;
+    font-size: 200%;
+    right: 12%;
+    top: 25%;
+}
+h4{
+     position: absolute;
+    font-size: 200%;
+    right: 16%;
+    top: 40%;
+    letter-spacing: 10px;
+}
+.profile{
+    background-color:rgb(115, 123, 123);
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: -18%;
+    
+
+}
+.username{
+    position: relative;
+    right: -50px;
+    top: 15px;
+    font-size: 120%;    
+}
+.emojis{
+     display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 5px;
+}
+.emojis span {
+    font-size: 24px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.emojis span:hover {
+    transform: scale(1.3);
+}
+
+.text{
+    margin: auto;
+}
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 300%;
+    align-items: center;
+    justify-self: center;
+    padding: 50px ;
+
+}
+.num1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+    position: relative;
+    right: -100px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.num2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+    position: relative;
+    right: -100px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.num3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+    position: relative;
+    right: -100px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.num4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+    position: relative;
+    right: -100px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.icon1{
+    position: relative;
+    top: 23px;
+    right: -65px;
+}
+.icon2{
+    position: relative;
+    top: 23px;
+    right: -65px;
+}
+.icon3{
+    position: relative;
+    top: 23px;
+    right: -65px;
+}
+.icon4{
+    position: relative;
+    top: 23px;
+    right: -65px;
+}
+h6{
+    position: relative;
+    font-size: 300%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    right: -60px;
+    padding-top: 40px;
+}
+.logogrid{
+    margin: auto;
+    justify-self: center;
+    align-items: center;
+    padding-top:70px ;
+    padding-bottom: 90px;
+    position: relative;
+    right: -7%;
+    display: flex;
+    gap: 150px;
+}
+.logoicon {
+    position: relative;
+    height: 100%; 
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    
+}
+.logoicon span{
+    font-size: 250%;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    right: -13px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.logotext{
+    font-size: 120%;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+.logoicon:hover{
+    transform: translateY(-6px);
+}
